@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    max-width: 820px;
+    background: #1B2440;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #1B2440;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+    background-color: black;
+    font-weight: 400px;
+    font-size: 90px;
+    line-height: 141%;
+    width: 117px;
+    height: 120px;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.btn-score:hover {
+    cursor: pointer;
+    background-color: rgb(71, 125, 146);
+}
+
+.btn-score {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    transition: oppacity 120ms ease-in-out;
+    background-color: #1B2440;
+    color: #9AABD8;
+    font-size: 18px;
+    line-height: 155%;
+}
+
+#new-game:hover {
+    background-color: rgb(71, 125, 146);
+    cursor: pointer;
+}
+
+#new-game {
+    height: 50px;
+    margin-top: 340px;
+    ;
+    background-color: #1B2440;
+    border: 3px solid #9AABD8;
+    font-size: 20px;
+    transition: oppacity 120ms ease-in-out;
+    font-family: 'CursedTimer';
+    color: white;
+}
